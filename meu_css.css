@@ -1,0 +1,13 @@
+.melhorplano{
+    background-color: rgb(83, 248, 83) !important;
+}
+.piorplano{
+    background-color: rgb(246, 61, 61) !important; 
+}
+#extrato{
+    margin-top: 5px;
+
+}
+#body{
+    background-color: aqua;
+}

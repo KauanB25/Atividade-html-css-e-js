@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalição de planos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="meu_css.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="text-center">
+          <h1>Comparativo de planos</h1>
+            <h2>Insira sua informações e verifique quais são as melhores opções</h2>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Altura</span>
+                <input id="altura" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Peso</span>
+                <input id="peso" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Idade</span>
+                <input id="idade" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+
+            <button class="btn btn-outline-primary" onclick="comparação()"> Calculo </button>
+            
+            <div id="extrato"></div>
+
+        </section>
+
+
+    </div>
+    
+</body>
+</html>
