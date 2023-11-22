@@ -148,12 +148,20 @@ function comparação() {
 
     console.log(melhorPlanoBasico, melhorPlanoStandart, melhorPlanoPremium);
 
-    let tabela = `<table class="table table-bordered border-primary">
+    let tabela = `<table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Operadora A</th>
-            <th scope="col">Operadora B</th>
+            <th scope="col" class="cabeçalhos alinhamento-vertical">Tipo de plano</th>
+
+
+            <th scope="col" class="cabeçalhos">
+            <img src="unimed-logo-1.png" class="imagem">
+            
+            </th>
+
+            <th scope="col" class="cabeçalhos">
+            <img src="Amil-logo.png" class="imagem2">
+            </th>
         </tr>
     </thead>
     <tbody>

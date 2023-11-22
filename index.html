@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +8,34 @@
     <link rel="stylesheet" href="meu_css.css">
     <script src="index.js"></script>
 </head>
-<body>
+<body class="backgroud">
     <div class="container">
-        <section class="text-center">
-          <h1>Comparativo de planos</h1>
-            <h2>Insira sua informações e verifique quais são as melhores opções</h2>
-            <div class="input-group input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Altura</span>
-                <input id="altura" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <section class="text-center align-content-center align-content-center">
+          <h1>Comparativo planos</h1>
+            <h3>Descubra qual é o melhor plano para você</h3>
+          
+
+              <div class="col-12 mx-auto display-flex align-items-center justify-content-center">
+                <div class="input-group input-group-sm mb-3 inputs">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Altura</span>
+                  <input id="altura" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Insira sua altura">
+                </div>
               </div>
-            <div class="input-group input-group-sm mb-3">
+
+              <div class="col-12 mx-auto col-12 mx-auto display-flex align-items-center justify-content-center">
+              <div class="input-group input-group-sm mb-3 inputs">
                 <span class="input-group-text" id="inputGroup-sizing-sm">Peso</span>
-                <input id="peso" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <input id="peso" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Insira seu peso">
               </div>
-            <div class="input-group input-group-sm mb-3">
+              </div>
+
+              <div class="col-12 mx-auto display-flex align-items-center justify-content-center">
+              <div class="input-group input-group-sm mb-3 inputs">
                 <span class="input-group-text" id="inputGroup-sizing-sm">Idade</span>
-                <input id="idade" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <input id="idade" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Insira sua idade" >
               </div>
+            </div>
+           
 
             <button class="btn btn-outline-primary" onclick="comparação()"> Calculo </button>
             

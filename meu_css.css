@@ -8,6 +8,40 @@
     margin-top: 5px;
 
 }
-#body{
-    background-color: aqua;
+.backgroud{
+    background-image: url(backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.espaçamento{
+    margin: 50px 0 !important;
+}
+
+table{
+    border-spacing: 0 100px;
+}
+.imagem{
+    max-width: 100%;
+    max-height: 100%;
+}
+.imagem2{
+    max-width: 90%;
+    max-height: 90%;
+}
+.cabeçalhos{
+    width: 30vh;
+}
+input{
+    max-width: 40vh;
+}
+.inputs{
+    max-width: 50vh;
+}
+
+.display-flex{
+    display: flex;}
+
+.alinhamento-vertical{
+    vertical-align: middle;
 }
