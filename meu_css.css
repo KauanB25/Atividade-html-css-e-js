@@ -1,3 +1,7 @@
+body{
+    height: 100vh;
+}
+
 .melhorplano{
     background-color: rgb(83, 248, 83) !important;
 }
@@ -5,7 +9,7 @@
     background-color: rgb(246, 61, 61) !important; 
 }
 #extrato{
-    margin-top: 5px;
+    margin-top: 5vh;
 
 }
 .backgroud{
@@ -30,7 +34,10 @@ table{
     max-height: 90%;
 }
 .cabeçalhos{
-    width: 30vh;
+    max-width: 30vh;
+    height: 10vh;
+    background-color: rgba(10,23,55,0) !important;
+
 }
 input{
     max-width: 40vh;
@@ -44,4 +51,18 @@ input{
 
 .alinhamento-vertical{
     vertical-align: middle;
+}
+.transparente {
+    opacity: 0;
+  }
+
+.formulario{
+    margin-top: 10vh;
+}
+
+span{
+    width: 6vh;
+}
+section{
+    width: 100%;
 }

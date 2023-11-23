@@ -151,7 +151,7 @@ function comparação() {
     let tabela = `<table class="table">
     <thead>
         <tr>
-            <th scope="col" class="cabeçalhos alinhamento-vertical">Tipo de plano</th>
+            <th class="transparente cabeçalhos"></th>
 
 
             <th scope="col" class="cabeçalhos">
