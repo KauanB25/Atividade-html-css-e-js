@@ -61,7 +61,8 @@ input{
 }
 
 span{
-    width: 6vh;
+    min-width: 6vh;
+    max-width: 8vh;
 }
 section{
     width: 100%;
